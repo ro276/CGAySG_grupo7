@@ -1,3 +1,5 @@
+//grupo 7
+//Nicolas Esquivel - Delfina Cebey - Hernan Cortez - Oriana Moreira - Luca Chiodini -Rosario Arri 
 let paperColor, gridColor, inkColor, annotationsColor;
 function setup() {
   createCanvas(1000, 800);
