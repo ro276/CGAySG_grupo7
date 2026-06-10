@@ -1,6 +1,6 @@
 //Interacciones
-//Altura grave: ensancha la figura en ejex
-//altura aguda: ensancha la figura en ejey
-//intensidad: hace que la figura se expanda o contraiga en ambos ejes, dependiendo de la intensidad del sonido
+//Altura grave: la figura se encoje y se vuelve azul
+//altura aguda: ensancha la figura en ejey y se vuelve rojo
+//amplitud: hace que la figura se expanda o contraiga en ambos ejes, dependiendo de la intensidad del sonido
 //corta duracion + alta intensidad: hace que la figura active su rotación. Por ejemplo un chasquido o un aplauso
-//Ausencia de sonido: hace que la figura se contraiga
+//Ausencia de sonido: la figura queda en su estado normal
