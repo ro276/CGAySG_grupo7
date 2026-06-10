@@ -1,7 +1,7 @@
 function drawGrid() {
   // Dibuja la cuadrícula fina de líneas azul pálido tenue (o naranja, según la variante)
   stroke(gridColor);
-  strokeWeight(0.9);
+  strokeWeight(1); // Líneas más gruesas si el nivel es alto, más finas si es bajo
   let step = 10; // Tamaño de cuadro de 1mm aproximado
   
   for (let x = 0; x < width; x += step) {
@@ -11,6 +11,5 @@ function drawGrid() {
     line(0, y, width, y);
   }
   
-    
 
 }
