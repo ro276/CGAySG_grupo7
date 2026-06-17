@@ -144,38 +144,9 @@ function dibujar(r, h, d, lados) {
       line(xEdge, yEdge, 0, 20);
       if (filteredLevel > 150) {
         line(xEdge, yEdge, 0, 40);
-      }
-    }
-  }
-    for (let i = 0; i < lados; i++) {
-    let p1 = verticesBase[i ];
-    let p2 = verticesBase[(i + 3) % lados];
-    for (let j = 0; j < d; j++) {
-      let inter = j / d ;
-      let xEdge = lerp(p1.x, p2.x, inter);
-      let yEdge = lerp(p1.y, p2.y, inter);
-     let caminante =0;
-     while (caminante <= width){
-
-      line(xEdge, yEdge  ,0 , 0);
+             line(xEdge, yEdge  ,0 , 0);
       line(xEdge , yEdge-80, 0, 0);
-      
-      
-    }
-    }
-  }
-    for (let i = 0; i < lados; i++) {
-   
-    let p1 = verticesBase[i];
-    let p2 = verticesBase[(i + 3) % lados];
-    for (let j = 0; j < d; j++) {
-      let inter = j / d;
-      let xEdge = lerp(p1.x, p2.x, inter);
-      let yEdge = lerp(p1.y, p2.y, inter);
-
-      line(xEdge, yEdge , 0, 0);
-      line(xEdge, yEdge, 0 , 20);
-     
+      }
     }
   }
 }
