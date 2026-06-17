@@ -110,11 +110,12 @@ function draw() {
   drawGrid(); 
   
   push();
-  translate(width / 2, height / 2); 
+   let flotante = sin(frameCount * 0.03) * 8;
+  translate(width / 2, height / 2 + flotante); 
   stroke(strokeActual);
   strokeWeight(0.5); 
 
-  let densidad = 100;      
+  let densidad = 70;      
   let ladosPoligono = 4;  
 
   dibujar(Base, -alturaY, densidad, ladosPoligono);
