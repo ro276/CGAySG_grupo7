@@ -178,7 +178,5 @@ function dibujar(r, h, d, lados) {
      
     }
   }
-
- 
 }
 
